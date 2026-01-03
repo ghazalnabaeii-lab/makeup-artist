@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@layer components{
+    .btnRed{
+        @apply uppercase w-fit h-[50px]  rounded-[50px] px-[25px] flex items-center bg-pink-300 text-white gap-2.5 hover:bg-pink-800 hover:-translate-y-1 hover:border hover:border-amber-50 duration-500
+    }
+    .box{
+        @apply uppercase w-[255px] h-[80px] bg-white ps-5 duration-700 hover:-translate-y-3 shadow-2xl
+    }
+    .box2{
+         @apply uppercase w-[255px] h-[80px] bg-white ps-5 duration-700 hover:translate-y-3 shadow-2xl
+    }
+
+}
+@layer base{
+    body{
+        font-family: ghazal;
+    }
+    h2{
+        font-family: mak;
+    }
+    @font-face {
+        font-family: ghazal;
+        src: url(../font/font.ttf);
+    }
+    @font-face {
+        font-family:mak ;
+        src: url(../font/PlaywriteRO-Regular.ttf);
+    }
+}
+@layer utilities{
+    .row{
+        @apply flex  w-full 
+    }
+}
