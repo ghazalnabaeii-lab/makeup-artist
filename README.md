@@ -7,7 +7,7 @@ I'm Ghazal a fresh Front-end student who is trying to learn and improve in web s
 
 ## 💬Information
 
--   🌐[Demo Project](https://ghazalnabaeii-lab.github.io/After-sales-service/)
+-   🌐[Demo Project](https://ghazalnabaeii-lab.github.io/makeup-artist/)
 -  💻Developed by Ghazal Nabaei
  -  🕒Date: 2026/06/06
  -  🔍Technologies Used - HTML , CSS ,TAILWIND
